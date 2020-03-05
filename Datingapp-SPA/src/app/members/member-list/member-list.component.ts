@@ -38,6 +38,7 @@ export class MemberListComponent implements OnInit {
     this.loadUsers();
   }
 
+
   resetFilters() {
     this.userParams.gender = this.user.gender === 'female' ? 'male' : 'female';
     this.userParams.minAge = 18;
